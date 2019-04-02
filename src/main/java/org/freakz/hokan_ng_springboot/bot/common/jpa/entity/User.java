@@ -45,6 +45,8 @@ public class User implements Serializable {
     @Column(name = "LOGGED_IN")
     private int loggedIn;
 
+    @Column(name = "TELEGRAM_ID")
+    private int telegramID;
 
     public User() {
         this.nick = "";
@@ -56,6 +58,7 @@ public class User implements Serializable {
         this.mask = "";
         this.realMask = "";
         this.loggedIn = 0;
+        this.telegramID = 0;
     }
 
     public User(String nick) {
@@ -155,5 +158,11 @@ public class User implements Serializable {
         return String.format("[%03d] %s (%s)", this.id, this.nick, this.fullName);
     }
 
+    public int getTelegramID() {
+        return telegramID;
+    }
 
+    public void setTelegramID(int telegramID) {
+        this.telegramID = telegramID;
+    }
 }
