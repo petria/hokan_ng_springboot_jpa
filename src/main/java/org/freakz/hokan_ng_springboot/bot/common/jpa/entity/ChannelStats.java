@@ -42,9 +42,6 @@ public class ChannelStats {
     @Column(name = "LAST_ACTIVE")
     private Date lastActive;
 
-//    @Column(name = "LAST_MESSAGE", length = 1024)
-//    private String lastMessage;
-
     @Column(name = "LAST_WRITER")
     private String lastWriter;
 
@@ -59,12 +56,6 @@ public class ChannelStats {
 
     @Column(name = "COMMANDS_HANDLED")
     private int commandsHandled;
-
-//    @Column(name = "TOPIC_KEEP", length = 1024)
-//    private String topicKeep;
-
-//    @Column(name = "TOPIC_SET", length = 1024)
-//    private String topicSet;
 
     @Column(name = "TOPIC_SET_BY")
     private String topicSetBy;
@@ -97,7 +88,6 @@ public class ChannelStats {
     public String toString() {
         String ret = "";
         ret += String.format("ID: %d\n", this.id);
-//        ret += String.format("%s\n", this.lastMessage);
         ret += String.format("%s\n", this.lastWriter);
         return ret;
     }
