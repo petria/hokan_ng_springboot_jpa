@@ -44,6 +44,7 @@ public enum PropertyName {
     PROP_CHANNEL_DO_TVNOTIFY("channel.DoNotify"),
     PROP_CHANNEL_DO_SEARCH_REPLACE("channel.DoSearchReplace"),
     PROP_CHANNEL_DO_STATS("channel.DoStats"),
+    PROP_CHANNEL_DO_TORRENTS("channel.DoTorrents"),
     PROP_CHANNEL_DO_URL_TITLES("channel.DoUrlTitles"),
     PROP_CHANNEL_DO_WHOLELINE_TRICKERS("channel.DoWholeLineTrickers");
 
