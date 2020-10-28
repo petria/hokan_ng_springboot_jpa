@@ -19,6 +19,7 @@ public enum PropertyName {
     PROP_SYS_DAY_CHANGED_TIME("sys.DayChangedTime"),
     PROP_SYS_GOOGLE_API_KEY("sys.GoogleApiKey"),
     PROP_SYS_EXEC("sys.Exec"),
+    PROP_SYS_EXT_TITLE_RESOLVER("sys.TitleResolver"),
     PROP_SYS_HTTP_PROXY_HOST("sys.HttpProxyHost"),
     PROP_SYS_HTTP_PROXY_PORT("sys.HttpProxyPort"),
     PROP_SYS_HTTP_USER_AGENT("sys.HttpUserAgent"),
