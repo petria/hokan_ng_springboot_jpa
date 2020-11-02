@@ -12,6 +12,7 @@ import java.util.List;
  */
 public enum PropertyName {
 
+
     PROP_SYS_ACCESS_CONTROL("sys.AccessControl"),
     PROP_SYS_ADMIN_USER_TOKEN("sys.AdminUserToken"),
     PROP_SYS_BOT_NICK("sys.BotNick"),
