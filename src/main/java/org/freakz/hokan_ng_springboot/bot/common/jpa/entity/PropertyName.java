@@ -36,6 +36,7 @@ public enum PropertyName {
     PROP_SYS_SESSION_ID_TEST("sys.SessionIdTest"),
     PROP_SYS_SESSION_ID_UI("sys.SessionIdUi"),
     PROP_SYS_TV_XML_DATA_WATCH_DIR("sys.TvXmlDataWatchDir"),
+    PROP_SYS_YULE_TIME("sys.YuleTime"),
     PROP_SYS_DO_WEB_COMMANDS("sys.DoWebCommands"),
 
     PROP_CHANNEL_BB_MODE("channel.BBMode"),
@@ -49,6 +50,7 @@ public enum PropertyName {
     PROP_CHANNEL_DO_STATS("channel.DoStats"),
     PROP_CHANNEL_DO_TORRENTS("channel.DoTorrents"),
     PROP_CHANNEL_DO_URL_TITLES("channel.DoUrlTitles"),
+    PROP_CHANNEL_DO_YULE("channel.DoYule"),
     PROP_CHANNEL_DO_WHOLELINE_TRICKERS("channel.DoWholeLineTrickers");
 
     private final String text;
